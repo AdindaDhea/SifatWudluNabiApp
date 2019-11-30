@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_user_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/im_menu"
+            android:layout_width="100dp"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_rounded_8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wudlu"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_nama_cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/im_menu"
+            android:fontFamily="sans-serif"
+            android:text="Sifat Wudlu"
+            android:layout_marginStart="8dp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/strip"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_toEndOf="@id/tv_nama_cafe"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="-"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_lokasi_cafe"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_toEndOf="@id/strip"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="Lokasi"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/im_star"-->
+<!--            android:layout_width="12dp"-->
+<!--            android:layout_height="12dp"-->
+<!--            android:layout_below="@id/tv_nama_cafe"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="6dp"-->
+<!--            android:layout_toEndOf="@id/im_menu"-->
+<!--            android:src="@drawable/star" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_label_rating_cafe"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_nama_cafe"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/im_star"-->
+<!--            android:text="Rating : "-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_rating_cafe"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_nama_cafe"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_label_rating_cafe"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text="10"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_max_rating"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_nama_cafe"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_rating_cafe"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:text=" / 10"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_label_sisa_seat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_rating_cafe"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/im_menu"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="Seat Tersedia : "-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_sisa_seat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_rating_cafe"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_label_sisa_seat"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="10"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_per_seat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_rating_cafe"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_sisa_seat"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="dari"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_max_seat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_rating_cafe"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_per_seat"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="25"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_label_bukatutup"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_sisa_seat"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/im_menu"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="Jam Buka : "-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_buka_pada"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_sisa_seat"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_label_bukatutup"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="21.00"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_per_bukatutup"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_sisa_seat"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_buka_pada"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="-"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_tutup_pada"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_label_sisa_seat"-->
+<!--            android:layout_marginStart="4dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_toEndOf="@id/tv_per_bukatutup"-->
+<!--            android:fontFamily="sans-serif-light"-->
+<!--            android:text="21.00"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="10sp"-->
+<!--            android:textStyle="normal" />-->
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

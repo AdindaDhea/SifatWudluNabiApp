@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/hai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/sifat_wudlu_app"
+        android:fontFamily="sans-serif-light"
+        android:text="Hai, Selamat Datang di"
+        android:textColor="@color/loginHeader"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/sifat_wudlu_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sifat Wudlu App"
+        android:textColor="@color/loginHeader"
+        android:textSize="28sp" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/im_login"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="450px"-->
+<!--        android:layout_below="@id/hai"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:src="@drawable/login_2" />-->
+
+
+
+</RelativeLayout>
