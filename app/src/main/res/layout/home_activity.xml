@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <TextView
+        android:id="@+id/home_tv_hai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/home_tv_judul"
+        android:fontFamily="sans-serif-light"
+        android:text="Hai, Selamat Datang di"
+        android:textColor="@color/loginHeader"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/home_tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sifat Wudlu Nabi App"
+        android:textColor="@color/loginHeader"
+        android:textSize="28sp" />
+    <Button
+        android:id="@+id/home_btn_lanjut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lanjut ke Beranda"
+        android:background="@drawable/button_shadow_blue"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="146dp"/>
+
+
+    <TextView
+        android:id="@+id/home_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-light"
+        android:text="Klik di sini untuk Login Sebagai Admin"
+        android:textColor="@color/loginHeader"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_konten_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKontenActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- IMage -->
+        <ImageView
+            android:id="@+id/detail_konten_im_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wudlu" />
+        <!--Nama Cafe-->
+        <TextView
+            android:id="@+id/detail_konten_tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_im_header"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Sifat Wudlu Nabi"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_konten_tv_detail_fasilitas_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_judul"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Penjelasan : "
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/detail_konten_tv_detail_penjelasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_detail_fasilitas_header"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Apabila seorang muslim mau berwudhu’, makaHendaknya ia berniat di dalam hatinya, kemudianmembaca Basmalah, sebab Rasulullah bersabda:Tidak sempurna wudhu’’ orang yang tidak menyebut nama Allah(HR Ahmad, dihasankan olehAl-Albani dalam Irwaul Ghalil).Dan apabila ia lupa, wudhu’’nya sah dan tidak perlu mengulangnya.SIFAT WUDHU NABIApabila seorang muslim mau berwudhu’, makaHendaknya ia berniat di dalam hatinya, kemudianmembaca Basmalah, sebab Rasulullah bersabda: Tidak sempurna wudhu’’ orang yang tidak menyebut nama Allah (HR Ahmad, dihasankan olehAl-Albani dalam Irwaul Ghalil).Dan apabila ia lupa, wudhu’’nya sah dan tidak perlu mengulangnya.Kemudian:1. Kemudian disunnahkanmencuci kedua telapaktangannya sebanyak tigakali sebelum memulai wudhu’ (gambar 1)"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/detail_konten_tv_user_label_sumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_detail_penjelasan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Sumber: "
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_konten_tv_sumber_isi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_detail_penjelasan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/detail_konten_tv_user_label_sumber"
+            android:fontFamily="sans-serif-light"
+            android:text="https://www.academia.edu/8697736/SIFAT_WUDHU_NABI"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/detail_konten_tv_label_sumber_gambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_sumber_isi"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Sumber GAmbar: "
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_konten_sumber_gambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_konten_tv_sumber_isi"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@id/detail_konten_tv_label_sumber_gambar"
+            android:fontFamily="sans-serif-light"
+            android:text="https://www.academia.edu/8697736/SIFAT_WUDHU_NABI"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</ScrollView>
